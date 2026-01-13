@@ -127,6 +127,9 @@ Yes. In addition to JSON and CSV, the output structure can align with universal 
 **How does it handle layout changes?**<br>
 The scraper validates page elements dynamically and includes fallback parsing logic to adapt to UI changes.
 
+**Does this use Threads API or Threads Private APIs?**
+This project is built for public web extraction, but the output is structured in a way that fits cleanly into Threads API-based pipelines, and the scraping logic can capture public signals similar to what developers typically expect from Threads Private APIs.
+
 ---
 
 ## Performance & Reliability Benchmarks
